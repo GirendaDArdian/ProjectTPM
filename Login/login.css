@@ -1,0 +1,226 @@
+#login {
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    background-color: #359bc0;
+    border-color: rgb(20, 172, 218);
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: 20px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Comic Book';
+}
+
+#login:hover {
+    background-color: #318aaa;
+}
+
+#signin {
+    margin-left: 1100px;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #359bc0;
+    border-color: rgb(16, 138, 175);
+    font-size: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: 'Comic Book';
+
+}
+
+#signin:hover {
+    text-decoration: none;
+    background-color: #318aaa;
+}
+
+
+
+body {
+    background-color: #2F86A6;
+    height: 600px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#2F86A6, #96C7C1);
+    height: max-content;
+    margin-left: -8px;
+
+
+
+}
+
+@font-face {
+    font-family: 'Greconian';
+    src: url(Greconian.ttf);
+}
+
+
+
+.h1header {
+    font-family: 'Greconian';
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+.vivabncc {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: overline;
+    color: rgb(5, 51, 51);
+    font-family: 'Source Code Pro', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+nav {
+    margin-left: -60px;
+}
+
+nav a {
+    height: 150px;
+    width: max-content;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 50px;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: -20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a::after {
+    color: white;
+}
+
+a:hover {
+    color: #012268;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.login {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    background-color: #96C7C1;
+    margin-left: -8px;
+    padding-top: 40px;
+    margin-top: -35px;
+    height: 500px;
+}
+
+@font-face {
+    font-family: 'Speeday';
+    src: url(Speeday-Regular-FFP.ttf);
+}
+
+.borderform {
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 330px;
+    height: 200px;
+    width: max-content;
+    border-style: solid;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#welcome {
+    font-family: 'Normandia';
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    color: #217492;
+}
+
+
+
+.inputname {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.button {
+    border-radius: 25px;
+    height: 50px;
+    width: 130px;
+    background-color: #359bc0;
+    border-color: rgb(31, 93, 112);
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button:hover {
+    background-color: #318aaa;
+}
+
+.haveacc {
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.reset {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.loginbawah {
+    color: rgb(83, 75, 75);
+}
+
+footer {
+    margin-top: -30px;
+    height: 60px;
+    width: 100%;
+    margin-left: -9px;
+    background-color: rgb(56, 53, 53);
+    padding-bottom: 20px;
+
+}
+
+.pfooter {
+    width: 100%;
+    color: antiquewhite;
+    padding-top: 30px;
+    margin-top: -20px;
+    text-align: center;
+}
